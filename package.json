@@ -190,5 +190,16 @@
   },
   "engines": {
     "node": "^16.13.0 || ^18.12.0 || ^20.9.0"
+  },
+  "nodecg": {
+    "dashboardPanels": [
+      {
+        "name": "dashboardPanels",
+        "title": "Dashboard",
+        "file": "dashboard/dashboard.html",
+        "width": 400,
+        "height": 300
+      }
+    ]
   }
 }
